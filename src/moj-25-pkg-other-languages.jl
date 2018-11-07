@@ -1,5 +1,6 @@
 # C ===================================================================================================================
-
+# These function calls are where Safety Issues really show! 
+# - segfaults, most commonly
 # Calls to C functions are done via *ccall()*. You need to specify:
 #
 # - name of function and the library that it is in;
