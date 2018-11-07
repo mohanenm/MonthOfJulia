@@ -1,8 +1,6 @@
-# Documentation on calling C and FORTRAN at http://julia.readthedocs.org/en/latest/manual/calling-c-and-fortran-code/.
-
 # C ===================================================================================================================
 
-# Calls to C functions are done via ccall(). You need to specify:
+# Calls to C functions are done via *ccall()*. You need to specify:
 #
 # - name of function and the library that it is in;
 # - function return type;
