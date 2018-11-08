@@ -3,13 +3,9 @@
 using FTPClient
 
 ftp_init()
-#
 # Connect to an anonymous FTP server that allows upload and download.
-#
 ftp = FTP(host = "speedtest.tele2.net", user = "anonymous", pswd = "hiya@gmail.com")
-
 readdir(ftp)
-
 binary(ftp)                                 # Change transfer mode to BINARY
 download(ftp, "1KB.zip", "local-1KB.zip")
 
@@ -19,7 +15,6 @@ upload(ftp, "papersize", open("/etc/papersize"))
 
 ftp_cleanup()
 close(ftp)
-
 # HTTP CLIENT =========================================================================================================
 
 # Other packages for HTTP methods:
