@@ -1,6 +1,6 @@
 # Running the contents of this file is not going to be too interesting, I'm afraid.
 
-# STANDARD INPUT AND OUTPUT ===========================================================================================
+# SIMPLE INPUT/OUTPUT
 
 # Simple output.
 #
